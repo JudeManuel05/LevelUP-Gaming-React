@@ -1,0 +1,22 @@
+:root {
+  --oscuro: #1c1c1c;
+  --verde: #28a745;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+html {
+  scroll-behavior: smooth;
+  /* Evita que el menú fijo tape el título de la sección al navegar con anclas. */
+  scroll-padding-top: 80px;
+}
+
+:focus-visible {
+  outline: 3px solid var(--verde);
+  outline-offset: 3px;
+}
